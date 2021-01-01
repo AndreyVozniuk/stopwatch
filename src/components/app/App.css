@@ -1,0 +1,43 @@
+body{
+  font-family: 'Roboto';
+  background-color: beige;
+}
+
+.App{
+  width: 90%;
+  height: 97vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app-btn{
+  font-family: 'Roboto';
+  padding: 10px 40px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: transparent;
+  background-color: navajowhite;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-btn:hover{
+  opacity: 0.7;
+}
+
+.stopwatch-info{
+  font-size: 75px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.stopwatch-buttons{
+  display: flex;
+  align-items: center;
+}
